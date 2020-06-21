@@ -10,3 +10,11 @@ void InvokePlugin()
     std::cout<<GetVersionInfo()<<std::endl;
 }
 }
+
+extern "C"
+{
+    void InvokePlugin1C()
+    {
+        Plugin1::InvokePlugin();
+    }
+}

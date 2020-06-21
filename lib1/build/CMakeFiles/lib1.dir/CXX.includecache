@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../public/lib.hpp
+string
+-
+
+/media/sda1/playground/shared_symbols_test/src/lib1/src/lib.cpp
+lib.hpp
+/media/sda1/playground/shared_symbols_test/src/lib1/src/lib.hpp
+

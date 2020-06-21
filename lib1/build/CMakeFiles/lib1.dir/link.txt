@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,liblib1.so.1 -o liblib1.so.1 CMakeFiles/lib1.dir/src/lib.o 
